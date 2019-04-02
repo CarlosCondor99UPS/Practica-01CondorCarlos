@@ -10,6 +10,7 @@ package ec.edu.ups.clases;
  * @author tians
  */
 public class Empleado {
+
     private String nombre;
     private String cedula;
     private String cargo;
@@ -43,5 +44,16 @@ public class Empleado {
         return "Empleado: " + "\nNombre: " + nombre + "\nCedula: " + cedula + "\nCargo: " + cargo;
     }
     
+    public boolean anadirEmpleado (String nombre, String cedula, String cargo){
+        return true;
+    }
     
+    public boolean eliminarCliente (String cedula){
+        return true;
+    }
+    
+    public boolean cambiarCargo (String nombre, String cargo){
+        return true;
+    }
+     
 }
