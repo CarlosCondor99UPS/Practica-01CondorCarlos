@@ -12,7 +12,7 @@ package ec.edu.ups.clases;
 public class PlatoComida {
 
     private String nombre;
-    private int precio;
+    private double precio;
     private String contenido;
 
     public String getNombre() {
@@ -23,11 +23,11 @@ public class PlatoComida {
         this.nombre = nombre;
     }
 
-    public int getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(double precio) {
         this.precio = precio;
     }
 
@@ -44,7 +44,7 @@ public class PlatoComida {
         return "PlatoComida: " + "\nNombre: " + nombre + "\nPrecio: " + precio + "\nContenido: " + contenido;
     }
     
-    public boolean anadirPlatoComida (String nombre, int precio, String contenido){
+    public boolean anadirPlatoComida (String nombre, double precio, String contenido){
         return true;
     }
     
@@ -52,7 +52,7 @@ public class PlatoComida {
         return true;
     }
     
-    public void cambiarPrecio (String nombre, int precio){
+    public void cambiarPrecio (String nombre, double precio){
         
     }
 }
