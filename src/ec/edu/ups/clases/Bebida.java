@@ -10,7 +10,6 @@ package ec.edu.ups.clases;
  * @author tians
  */
 public class Bebida {
-
     private String nombre;
     private String tipo;
     private int precio;
@@ -43,16 +42,6 @@ public class Bebida {
     public String toString() {
         return "Bebida: " + "\nNombre: " + nombre + ",\nTipo: " + tipo + ",\nPrecio: " + precio;
     }
-
-    public boolean anadirBebida(String nombre, String tipo, int precio) {
-        return true;
-    }
-
-    public boolean eliminarBebida(String nombre) {
-        return true;
-    }
-
-    public void cambiarPrecio(String nombre, int precio) {
-
-    }
+    
+    
 }
