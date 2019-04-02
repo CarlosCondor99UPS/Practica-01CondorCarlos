@@ -10,6 +10,7 @@ package ec.edu.ups.clases;
  * @author tians
  */
 public class Mesa {
+
     private int numero;
     private boolean ocupado;
     private String tamano;
@@ -43,5 +44,19 @@ public class Mesa {
         return "Mesa: " + "\nNumero: " + numero + "\nOcupado: " + ocupado + "\nTamano: " + tamano;
     }
     
+    public boolean anadirMesa (int numero, boolean ocupado, String tamano){
+        return true;
+    }
     
+    public boolean eliminarMesa (int numero){
+        return true;
+    }
+    
+    public void ocuparMesa (int numero){
+        
+    }
+    
+    public void desocuparMesa (int numero){
+        
+    }
 }
