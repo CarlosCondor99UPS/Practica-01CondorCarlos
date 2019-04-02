@@ -43,5 +43,15 @@ public class Bebida {
         return "Bebida: " + "\nNombre: " + nombre + ",\nTipo: " + tipo + ",\nPrecio: " + precio;
     }
     
+    public boolean anadirBebida(String nombre, String tipo, int precio){
+        return true;
+    }
     
+    public boolean eliminarBebida(String nombre){
+        return true;
+    }
+    
+    public void cambiarPrecio(String nombre, int precio){
+        
+    }
 }
