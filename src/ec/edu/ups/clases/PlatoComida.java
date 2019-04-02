@@ -10,6 +10,7 @@ package ec.edu.ups.clases;
  * @author tians
  */
 public class PlatoComida {
+
     private String nombre;
     private int precio;
     private String contenido;
@@ -43,5 +44,15 @@ public class PlatoComida {
         return "PlatoComida: " + "\nNombre: " + nombre + "\nPrecio: " + precio + "\nContenido: " + contenido;
     }
     
+    public boolean anadirPlatoComida (String nombre, int precio, String contenido){
+        return true;
+    }
     
+    public boolean eliminarPlatoComida (String nombre){
+        return true;
+    }
+    
+    public void cambiarPrecio (String nombre, int precio){
+        
+    }
 }
