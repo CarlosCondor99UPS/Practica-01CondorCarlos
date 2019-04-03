@@ -8,6 +8,7 @@ package ec.edu.ups.main;
 import ec.edu.ups.clases.Bebida;
 import ec.edu.ups.clases.Cliente;
 import ec.edu.ups.clases.Empleado;
+import ec.edu.ups.clases.Mesa;
 import java.util.Scanner;
 
 /**
@@ -88,8 +89,29 @@ public class Principal {
                     System.out.println(empleado1.toString());
                     break;
                 case 4:
+                    System.out.println("** Objeto MESA **");
+                    System.out.println("* Ingrese el numero de la mesa");
+                    int numeroMesa=sc.nextInt();
+                    System.out.println("* Ingrese el tamano GRANDE/PEQUENA");
+                    String tamanoMesa=sc.next();
+                    System.out.println("* Ingrese si esta ocupado SI/NO");
+                    String ocupado=sc.next();
+                    boolean ocupadoMesa;
+                    if (ocupado.equalsIgnoreCase("si"))
+                        ocupadoMesa=true;
+                    else
+                        ocupadoMesa=false;
+                    
+                    Mesa mesa1=new Mesa();
+                    mesa1.setNumero(numeroMesa);
+                    mesa1.setOcupado(ocupadoMesa);
+                    mesa1.setTamano(tamanoMesa);
+                    
+                    System.out.println("** Objeto CREADO **");
+                    System.out.println(mesa1.toString());
                     
                     break;
+                    
                     
             }
         }while (opcion!=6);
