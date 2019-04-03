@@ -53,7 +53,7 @@ public class Empleado {
         return true;
     }
 
-    public boolean eliminarCliente(String cedula) {
+    public boolean eliminarEmpleado(String cedula) {
         return true;
     }
 
