@@ -12,7 +12,7 @@ package ec.edu.ups.clases;
 public class Bebida {
     private String nombre;
     private String tipo;
-    private int precio;
+    private double precio;
 
     public String getNombre() {
         return nombre;
@@ -30,11 +30,11 @@ public class Bebida {
         this.tipo = tipo;
     }
 
-    public int getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(double precio) {
         this.precio = precio;
     }
 
@@ -43,7 +43,7 @@ public class Bebida {
         return "Bebida: " + "\nNombre: " + nombre + ",\nTipo: " + tipo + ",\nPrecio: " + precio;
     }
     
-    public boolean anadirBebida(String nombre, String tipo, int precio){
+    public boolean anadirBebida(String nombre, String tipo, double precio){
         return true;
     }
     
