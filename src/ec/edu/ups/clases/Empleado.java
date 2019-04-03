@@ -47,18 +47,18 @@ public class Empleado {
     public String toString() {
         return "Empleado: " + "\nNombre: " + nombre + "\nCedula: " + cedula + "\nCargo: " + cargo;
     }
-    
+
     //Metodos del diagrama de clase 
-    public boolean anadirEmpleado (String nombre, String cedula, String cargo){
+    public boolean anadirEmpleado(String nombre, String cedula, String cargo) {
         return true;
     }
-    
-    public boolean eliminarCliente (String cedula){
+
+    public boolean eliminarCliente(String cedula) {
         return true;
     }
-    
-    public boolean cambiarCargo (String nombre, String cargo){
+
+    public boolean cambiarCargo(String nombre, String cargo) {
         return true;
     }
-     
+
 }

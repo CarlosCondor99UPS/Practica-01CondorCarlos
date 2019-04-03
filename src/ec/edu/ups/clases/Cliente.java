@@ -37,27 +37,27 @@ public class Cliente {
     public void setMembresia(boolean membresia) {
         this.membresia = membresia;
     }
-    
+
     //Metodo toString para imprimir los datos
     @Override
     public String toString() {
         return "Cliente: " + "\nNombre: " + nombre + "\nCedula: " + cedula + "\nMembresia: " + membresia;
     }
-    
+
     //Metodos del diagrama de clase 
-    public boolean anadirCliente (String nombre, String cedula, boolean membresia){
+    public boolean anadirCliente(String nombre, String cedula, boolean membresia) {
         return true;
     }
-    
-    public boolean eliminarCliente (String cedula){
+
+    public boolean eliminarCliente(String cedula) {
         return true;
     }
-    
-    public boolean iniciarMembresia (String cedula){
+
+    public boolean iniciarMembresia(String cedula) {
         return true;
     }
-    
-    public boolean eliminarMembresia(String cedula){
+
+    public boolean eliminarMembresia(String cedula) {
         return true;
     }
 }

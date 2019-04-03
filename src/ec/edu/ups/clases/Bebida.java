@@ -10,7 +10,7 @@ package ec.edu.ups.clases;
  * @author tians
  */
 public class Bebida {
-    
+
     //Variables Declaradas
     private String nombre;
     private String tipo;
@@ -46,17 +46,17 @@ public class Bebida {
     public String toString() {
         return "Bebida: " + "\nNombre: " + nombre + ",\nTipo: " + tipo + ",\nPrecio: " + precio;
     }
-    
+
     //Metodos del diagrama de clase 
-    public boolean anadirBebida(String nombre, String tipo, double precio){
+    public boolean anadirBebida(String nombre, String tipo, double precio) {
         return true;
     }
-    
-    public boolean eliminarBebida(String nombre){
+
+    public boolean eliminarBebida(String nombre) {
         return true;
     }
-    
-    public void cambiarPrecio(String nombre, int precio){
-        
+
+    public void cambiarPrecio(String nombre, int precio) {
+
     }
 }

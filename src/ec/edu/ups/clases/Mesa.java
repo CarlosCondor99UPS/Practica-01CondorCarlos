@@ -11,7 +11,7 @@ package ec.edu.ups.clases;
  * @version 8.2
  */
 public class Mesa {
-    
+
     //Variables Declaradas
     private int numero;
     private boolean ocupado;
@@ -47,21 +47,21 @@ public class Mesa {
     public String toString() {
         return "Mesa: " + "\nNumero: " + numero + "\nOcupado: " + ocupado + "\nTamano: " + tamano;
     }
-    
+
     //Metodos del diagrama de clase 
-    public boolean anadirMesa (int numero, boolean ocupado, String tamano){
+    public boolean anadirMesa(int numero, boolean ocupado, String tamano) {
         return true;
     }
-    
-    public boolean eliminarMesa (int numero){
+
+    public boolean eliminarMesa(int numero) {
         return true;
     }
-    
-    public void ocuparMesa (int numero){
-        
+
+    public void ocuparMesa(int numero) {
+
     }
-    
-    public void desocuparMesa (int numero){
-        
+
+    public void desocuparMesa(int numero) {
+
     }
 }

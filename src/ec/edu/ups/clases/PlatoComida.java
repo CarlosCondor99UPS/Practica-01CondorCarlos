@@ -46,17 +46,17 @@ public class PlatoComida {
     public String toString() {
         return "PlatoComida: " + "\nNombre: " + nombre + "\nPrecio: " + precio + "\nContenido: " + contenido;
     }
-    
+
     //Metodos del diagrama de clase 
-    public boolean anadirPlatoComida (String nombre, double precio, String contenido){
+    public boolean anadirPlatoComida(String nombre, double precio, String contenido) {
         return true;
     }
-    
-    public boolean eliminarPlatoComida (String nombre){
+
+    public boolean eliminarPlatoComida(String nombre) {
         return true;
     }
-    
-    public void cambiarPrecio (String nombre, double precio){
-        
+
+    public void cambiarPrecio(String nombre, double precio) {
+
     }
 }
