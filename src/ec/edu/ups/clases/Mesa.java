@@ -8,13 +8,16 @@ package ec.edu.ups.clases;
 /**
  *
  * @author tians
+ * @version 8.2
  */
 public class Mesa {
-
+    
+    //Variables Declaradas
     private int numero;
     private boolean ocupado;
     private String tamano;
 
+    //Getters and Setters
     public int getNumero() {
         return numero;
     }
@@ -39,11 +42,13 @@ public class Mesa {
         this.tamano = tamano;
     }
 
+    //Metodo toString para imprimir los datos
     @Override
     public String toString() {
         return "Mesa: " + "\nNumero: " + numero + "\nOcupado: " + ocupado + "\nTamano: " + tamano;
     }
     
+    //Metodos del diagrama de clase 
     public boolean anadirMesa (int numero, boolean ocupado, String tamano){
         return true;
     }

@@ -10,10 +10,13 @@ package ec.edu.ups.clases;
  * @author tians
  */
 public class Bebida {
+    
+    //Variables Declaradas
     private String nombre;
     private String tipo;
     private double precio;
 
+    //Getters and Setters
     public String getNombre() {
         return nombre;
     }
@@ -38,11 +41,13 @@ public class Bebida {
         this.precio = precio;
     }
 
+    //Metodo toString para imprimir los datos
     @Override
     public String toString() {
         return "Bebida: " + "\nNombre: " + nombre + ",\nTipo: " + tipo + ",\nPrecio: " + precio;
     }
     
+    //Metodos del diagrama de clase 
     public boolean anadirBebida(String nombre, String tipo, double precio){
         return true;
     }

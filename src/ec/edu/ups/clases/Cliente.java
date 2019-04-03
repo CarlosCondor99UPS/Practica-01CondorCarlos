@@ -8,10 +8,12 @@ package ec.edu.ups.clases;
  */
 public class Cliente {
 
+    //Variables Declaradas
     private String nombre;
     private String cedula;
     private boolean membresia;
 
+    //Getters and Setters
     public String getNombre() {
         return nombre;
     }
@@ -35,12 +37,14 @@ public class Cliente {
     public void setMembresia(boolean membresia) {
         this.membresia = membresia;
     }
-
+    
+    //Metodo toString para imprimir los datos
     @Override
     public String toString() {
         return "Cliente: " + "\nNombre: " + nombre + "\nCedula: " + cedula + "\nMembresia: " + membresia;
     }
     
+    //Metodos del diagrama de clase 
     public boolean anadirCliente (String nombre, String cedula, boolean membresia){
         return true;
     }
